@@ -7,8 +7,8 @@ h3 {
 }
 td{
     width: 10px;
-     border: 2px ;
-     text-align: center;
+    border: 2px ;
+    text-align: center;
 }
 
 .image{
@@ -67,8 +67,27 @@ body{
     span{font-size: 8px;}
     td{margin: auto; width: 15px;}
 }
-@media screen and (max-width:760px){
+@media screen and (max-width:540px){ 
+    td{
+        width: 7px;
+    }
     .blow{margin: auto; }
     strong{font-size: 9px;}
     span{font-size: 4px;}
+}
+@media screen and (min-width:360px) and (max-width:414px){ 
+    td{
+        width: 6px;
+    }
+    .blow{margin: auto; }
+    strong{font-size: 9px;}
+    span{font-size: 3px;}
+}
+@media screen and (max-width:280px){ 
+    td{
+        width: 5px;
+    }
+    .blow{margin: auto; }
+    strong{font-size: 9px;}
+    span{font-size: 2px;}
 }
